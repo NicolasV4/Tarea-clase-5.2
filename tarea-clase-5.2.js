@@ -6,6 +6,7 @@ $aceptar.onclick = function (){
     const $edadUsuario = Number(document.querySelector('#edad-usuario').value)
 
     document.querySelector('#saludo').innerText = 'Bienvenido ' + $nombreUsuario + '!';
+    document.querySelector('#informacion-usuario').value = `Tu nombres es ${$nombreUsuario} ${$apellidoUsuario} y tenes ${$edadUsuario} años`
     return false;
 }
 
